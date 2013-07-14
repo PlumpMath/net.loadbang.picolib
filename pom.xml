@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.loadbang</groupId>
   <artifactId>net.loadbang.picolib</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>net.loadbang.picolib</name>
   <description>Little utilities.</description>
 
