@@ -9,7 +9,7 @@
   <packaging>jar</packaging>
   <version>1.0.0</version>
   <name>net.loadbang.picolib</name>
-  <description>Little utilities</description>
+  <description>A tiny set of standalone utilities</description>
   <url>https://github.com/cassiel/net.loadbang.picolib</url>
 
   <organization>
