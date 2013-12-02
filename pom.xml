@@ -12,6 +12,12 @@
   <description>A tiny set of standalone utilities</description>
   <url>https://github.com/cassiel/net.loadbang.picolib</url>
 
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
   <organization>
     <name>CASSIEL</name>
     <url>http://www.cassiel.com</url>
@@ -87,6 +93,20 @@
             <id>attach-javadocs</id>
             <goals>
               <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
             </goals>
           </execution>
         </executions>
